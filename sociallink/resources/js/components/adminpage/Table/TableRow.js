@@ -13,7 +13,7 @@ class TableRow extends Component {
                 <th scope="row">{this.props.data.id}</th>
                 <td>{this.props.data.nama}</td>
                 <td>{this.props.data.keterangan}</td>
-                <td>{this.props.data.harga}</td>
+                <td>$ {this.props.data.harga}</td>
                 <td><TableAksiButtons rowId={this.props.data.id}/></td>
             </tr> 
         );
