@@ -9,8 +9,6 @@ npm install
 
 npm install laravel-mix --save-dev
 
-cp .env.example .env
-
 php artisan key:generate
 
 membuat database untuk migrate 
